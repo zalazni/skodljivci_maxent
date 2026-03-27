@@ -7,7 +7,7 @@ Podatki, potrebni za izračun:
 - maksimalna temperatura in
 - evapotranspiracija
 
-V tem primeru so podatki pridobljeni s portala Odprti podatki Slovenije:
+V tem primeru so podatki pridobljeni s portala Odprti podatki Slovenije, uporabimo podatke za referenčno obdobje 1981-2010 in podnebne projekcije za 2011-2040, 2041-2070 ter 2071-2100 (RCP4.5 in RCP8.5):
 Podnebne spremembe: https://podatki.gov.si/data/search?q=podnebne+spremembe&page=1 
 
 Podatki o skupni površini polj s koruzo:
@@ -15,3 +15,5 @@ AKTRP. 2022. Data on Crops Grown on Slovenian Arable Fields in 2022. 〈https://
 
 Podatki o razširjenosti vrst pridobljeni s strani GBIF:
 Global Biodiversity Information Facility (https://www.gbif.org/)
+
+Model najprej konstruiramo na podatkih WorldClim, nato izračunamo ustreznost podnebja Slovenije (referenčno obdobje 1981-2010) in v tretjem delu skripte izračunamo ustreznost za pojav v podnebju podnebnih projekcij.
