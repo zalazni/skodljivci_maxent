@@ -17,3 +17,5 @@ Podatki o razširjenosti vrst pridobljeni s strani GBIF:
 Global Biodiversity Information Facility (https://www.gbif.org/)
 
 Model najprej konstruiramo na podatkih WorldClim, nato izračunamo ustreznost podnebja Slovenije (referenčno obdobje 1981-2010) in v tretjem delu skripte izračunamo ustreznost za pojav v podnebju podnebnih projekcij.
+
+DOI: https://doi.org/10.5281/zenodo.20342534
